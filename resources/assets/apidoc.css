@@ -1,0 +1,62 @@
+html, body {
+	background-color: #fff;
+	color: #636b6f;
+	font-family: Microsoft YaHei, -apple-system, 'Nunito', sans-serif;
+	font-weight: 200;
+	height: 100vh;
+	margin: 0;
+}
+
+pre code {
+	font-family: consolas, "Microsoft JhengHei UI", Menlo, 'Nunito', sans-serif;
+}
+
+.logo {
+	width: 256px;
+	height: 256px;
+	overflow: hidden;
+	border-radius: 128px;
+	margin: 15% auto 30px auto;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.aside {
+	height: calc(100vh);
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.aside-info {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-link.active {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-item .nav-link {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.hljs {
+	border-radius: 3px;
+}
